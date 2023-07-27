@@ -1,5 +1,5 @@
 function scuberGreetingForFeet(feet){
-  // Write your code here!
+  
   let greeting
   if (feet <= 400){
     return greeting = "This one is on me!"
@@ -13,14 +13,17 @@ function scuberGreetingForFeet(feet){
 }
 
 function ternaryCheckCity(city){
-  // Write your code here!
+  
   let greeting
   city == "NYC" ? greeting = "Ok, sounds good." : greeting =  "No go."
   return greeting
 }
 
+// console.log(ternaryCheckCity("NYC")); /* Testing process */
+// console.log(ternaryCheckCity("Pittsburgh")); /* Testing process */
+
 function switchOnCharmFromTip(tip){
-  // Write your code here!
+  
   let greeting
   switch (tip) {
     case "generous":
@@ -34,3 +37,7 @@ function switchOnCharmFromTip(tip){
   }
   return greeting
 }
+
+// console.log(switchOnCharmFromTip("generous")); /* Testing process */
+// console.log(switchOnCharmFromTip("not as generous")); /* Testing process */
+// console.log(switchOnCharmFromTip("thanks for everything")); /* Testing process */
